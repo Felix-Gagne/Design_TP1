@@ -1,0 +1,50 @@
+.presentation{
+    
+    .wrapper{
+        padding-left: 73px;
+        padding-right: 73px;
+    }
+
+    .section_one{
+
+        width: 720px;
+
+        h1{
+            font-family: var(--font-primary);
+            font-size: 96px;
+            color: #262626;
+            margin-top: 15px;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+    
+        img{
+            width: 720px;
+            height: 479px;
+        }
+    
+        h3{
+            font-size: 48px;
+            font-family: var(--font-primary);
+            color: #262626;
+            margin-top: 15px;
+            align-items: center;
+            justify-content: inline-flex;
+            margin-left: 110px;
+        }
+
+    }
+
+    .section_two{
+        
+    }
+
+    .section_three{
+        
+    }
+
+    .section{
+
+    }
+
+}
