@@ -1,51 +1,120 @@
-.presentation{
+.presentation {
     color: var(--color-text);
-    
-    .wrapper{
+
+    .wrapper {
         padding-left: 73px;
         padding-right: 73px;
     }
 
-    .container_page{
+    .container_page {
         display: flex;
-    }
 
-    .section_one{
-        width: 720px;
-        
-        .container_img{
-            background-color: rgba($color: #000000, $alpha: 0.6);
+        .section_one {
             width: 720px;
-            height: 120px;
-            position:absolute;
-            top: 18rem;
-            left: 8.8rem;
+            position: relative;
+            
 
-            h1{
-                font-family: var(--font-primary);
-                color: var(--color-text);
-                font-size: 96px;
-                margin-top: 15px;
-                margin-bottom: 15px;
-                text-align: center;
+            img {
+                padding-top: 100px;
+                width: 100%;
+                height: 713px;
+            }
+
+            .container_img {
+                background-color: rgba($color: #000000, $alpha: 0.6);
+                position: absolute;
+                top: 100px;
+                right: 0;
+                width: 100%; 
+                padding: 2rem; 
+
+                h1 {
+                    font-family: var(--font-primary);
+                    color: var(--color-text);
+                    font-size: 96px;
+                    margin-top: 15px;
+                    margin-bottom: 15px;
+                    text-align: center;
+                }
             }
         }
-    
-        img{
-            margin-top: 10rem;
-            position: relative;
-            width: 720px;
-            height: 479px;
-        }
-    }
 
-    .section_two{
-        margin-top: 10rem;
-        width: auto;
+        .section_two {
+            flex: 1; 
+            padding-left: 2rem;
+            margin-top: 100px;
 
-        h3{
-            font-family: var(--font-primary);
-            font-size: 4.8rem;
+            h3{
+                font-size: 4.8rem;
+                font-family: var(--font-primary);
+                padding-top: 50px;
+            }
+
+            h4{
+                padding-top: 10px;
+                font-family: var(--font-primary);
+                font-size: 2.4rem;
+            }
+
+            .top_segment{
+                display: inline-flex;
+
+                h2 {
+                    font-family: var(--font-primary);
+                    font-size: 6.4rem;
+                }
+
+                div{
+                    margin-left: 450px;
+                    position: relative;
+                    bottom: 15px;
+                }
+            }
+
+            .point{
+                h3{
+                    font-size: 4.8rem;
+                    font-family: var(--font-primary);
+                    padding-top: 15px;
+                }
+            }
+
+            .bottom_progress{
+                display: inline-flex;
+                margin-top: 15px;
+
+                li{
+                    position: relative;
+                    bottom: 25px;
+                    margin-left: 200px;
+                    width: 313px;
+                    height: 71px;
+                    background: #FFFFFF;
+                    align-items: center;
+                    justify-content: center;
+                    display: inline-flex;
+                    font-size: 2.4rem;
+                    font-family: var(--font-primary);
+                    color: #000000;
+                    filter: drop-shadow(-5px 5px black)
+                }
+            
+                li:hover{
+                    background: var(--color-hover);
+                }
+
+                .progress_background{
+                    width: 530px;
+                    height: 48px;
+                    background-color: var(--color-text);
+
+                    .progress_foreground{
+                        height: 100%;
+                        width: 50%;
+                        background-color: var(--color-progress);
+                    }
+                }
+            }
         }
     }
 }
