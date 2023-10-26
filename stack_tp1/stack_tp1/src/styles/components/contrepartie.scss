@@ -1,8 +1,25 @@
 .contrepartie{
+    color: var(--color-text);
+    font-family: var(--font-primary);
 
     .wrapper{
         padding-left: 73px;
         padding-right: 73px;
+        display: flex;
+    }
+
+    .card{
+        width: 591px;
+        height: 673px;
+    }
+    
+    .title{
+        color: var(--color-text);
+    }
+
+    img{
+        width: 591px;
+        height: 293px;
     }
     
 }

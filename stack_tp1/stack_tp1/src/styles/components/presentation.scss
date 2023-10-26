@@ -7,17 +7,7 @@
     }
 
     .container_page{
-        display: inline;
-    }
-
-    .section_two{
-        margin-top: 10rem;
-        width: auto;
-
-        h3{
-            font-family: var(--font-primary);
-            font-size: 4.8rem;
-        }
+        display: flex;
     }
 
     .section_one{
@@ -46,6 +36,16 @@
             position: relative;
             width: 720px;
             height: 479px;
+        }
+    }
+
+    .section_two{
+        margin-top: 10rem;
+        width: auto;
+
+        h3{
+            font-family: var(--font-primary);
+            font-size: 4.8rem;
         }
     }
 }
